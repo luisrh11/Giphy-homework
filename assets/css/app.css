@@ -1,0 +1,11 @@
+.car1{
+    float: left;
+    margin-right: 100px;
+    
+}
+.jumbotron{
+    background-color: red;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
