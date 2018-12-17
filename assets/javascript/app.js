@@ -27,9 +27,9 @@ function gifts() {
     console.log(response);
 
     var results = response.data;
-
-    for (var i = 0; i < results.length; i++) {
-        if (results[i].rating !== "r" && results[i].rating !== "pg-13"){       
+      $("#gifs").empty(); 
+    for (var i = 0; i < results.length; i++) { 
+             
             console.log("empty");
             var newDiv = $("<div class='car1'>");
      
@@ -45,7 +45,6 @@ function gifts() {
         newDiv.append(image);
 
         $("#gifs").prepend(newDiv);
-            }
         }
        
     });
